@@ -13,8 +13,10 @@ app.get("/api/friends", function (req, res) {
 
 // COMPATABILITY LOGIC --------------------------------------------------
 // Convert user's results into a simple array of numbers
-// Compare difference between current user's scores to other users (same question = same index)
-// Add differences between and calculate "totalDifference" (use absolute value of numbers!)
+// Compare difference between current user's scores to other users 
+//      (same question = same index)
+// Add differences between and calculate "totalDifference" 
+//      (use absolute value of numbers!)
 
 
 // display result as modal pop-up: name and pic of closest match
